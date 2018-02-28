@@ -1,0 +1,10 @@
+Atom Keymap
+Auto Close Tag
+Docker
+ESLint
+file-icons
+GitLens
+npm intellisense
+One Dark Pro
+Path Intellisense
+snapshot-tools
