@@ -15,6 +15,8 @@ Plug 'joshdick/onedark.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'jiangmiao/auto-pairs'
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-repeat'
 
 call plug#end()
 
