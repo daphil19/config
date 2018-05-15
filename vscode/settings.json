@@ -7,6 +7,7 @@
         "suppressLineUncommittedWarning": false,
         "suppressNoRepositoryWarning": false,
         "suppressResultsExplorerNotice": true,
+        "suppressShowKeyBindingsNotice": true,
         "suppressUpdateNotice": false,
         "suppressWelcomeNotice": true
     },
@@ -34,4 +35,9 @@
     "editor.rulers": [
         115
     ],
+    "gitlens.keymap": "chorded",
+    "git.autofetch": true,
+    "[python]": {
+        "editor.tabSize": 4
+    }
 }
