@@ -118,21 +118,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# remove all docker images and containers
-alias docker-purge='docker rm $(docker ps -a -q);docker rmi $(docker images -q)'
-
-# aliases for pip
-alias pip='python -m pip'
-alias pip2='python2 -m pip'
-alias pip3='python3 -m pip'
-
-# virtualenvwrapper source and environment vars
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/projects
-# use python3 for virtualenv instead of python2
-source $HOME/.local/bin/virtualenvwrapper.sh
-alias mkvirtualenv3='mkvirtualenv --python=$(which python3)'
-
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
